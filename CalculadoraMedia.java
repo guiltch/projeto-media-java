@@ -10,9 +10,5 @@ public class CalculadoraMedia {
         double nota1 = scanner.nextDouble();
         System.out.print("Digite a nota da segunda avaliação: ");
         double nota2 = scanner.nextDouble();
-
-        double media = (nota1 + nota2) / 2;
-
-        System.out.println("A média das notas é: " + media);
     }
 }
